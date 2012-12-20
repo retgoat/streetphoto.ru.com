@@ -1,4 +1,4 @@
-require 'app'
+require './app'
 
 use Rack::ShowExceptions
 

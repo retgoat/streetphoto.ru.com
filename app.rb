@@ -3,11 +3,11 @@ require 'mustache/sinatra'
 
 class App < Sinatra::Base
   register Mustache::Sinatra
-  require 'views/layout'
+  require './views/layout'
 
   set :mustache, {
-    :views     => 'views/',
-    :templates => 'templates/'
+    :views     => './views/',
+    :templates => './templates/'
   }
 
   get '/' do
