@@ -9,18 +9,28 @@ class App < Sinatra::Base
     :views     => './views/',
     :templates => './templates/'
   }
+  set :static, true
+  set :public, './public'
+
 
   get '/' do
-    @title = "Mustache + Sinatra = Wonder"
+    @title = "Modern Street Photo in Russia"
     mustache :index
   end
 
-  get '/other' do
-    mustache :other
+  get '/about' do
+    @title = "About the Event | Modern Street Photo in Russia"
+    mustache :about
   end
 
-  get '/nolayout' do
-    content_type 'text/plain'
-    mustache :nolayout, :layout => false
+  get '/photographers' do
+    @title = "Photographers at the Event | Modern Street Photo in Russia"
+    mustache :photographers
   end
+
+
+  # get '/nolayout' do
+  #   content_type 'text/plain'
+  #   mustache :nolayout, :layout => false
+  # end
 end

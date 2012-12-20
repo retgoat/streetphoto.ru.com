@@ -1,19 +1,5 @@
-A Mustache Sinatra Example
+streetphoto.ru.com
 ==========================
 
-Get started:
-
-    $ git clone http://github.com/defunkt/mustache-sinatra-example
-    $ cd mustache-sinatra-example
-    $ gem install bundler
-    $ bundle install
-    $ bundle exec shotgun -O config.ru
-
-Or browser to <http://localhost:9393> by hand.
-
-Note that we use a `templates` and a `views` directory. *You don't
-have to.* By default the views and templates will live in the `views`
-directory together.
-
-Enjoy.
-
+This is a promo website for Street photo exhibition in Novosibirsk, Russia.
+It's based on defunkt / mustache-sinatra-example https://github.com/defunkt/mustache-sinatra-example
