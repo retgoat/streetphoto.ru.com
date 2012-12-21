@@ -1,4 +1,5 @@
 require 'sinatra/base'
+# require 'sinatra/r18n'
 require 'mustache/sinatra'
 
 class App < Sinatra::Base
@@ -12,29 +13,19 @@ class App < Sinatra::Base
   set :static, true
   set :public, './public'
 
-
   get '/' do
     @title = "Modern Street Photo in Russia"
-    @menu_class="menu-item menu-active-item"
     mustache :index
   end
 
   get '/about' do
     @title = "About the Event | Modern Street Photo in Russia"
-    @menu_class="menu-item menu-active-item"
     mustache :about
 
   end
 
   get '/photographers' do
     @title = "Photographers at the Event | Modern Street Photo in Russia"
-    @menu_class="'menu-item menu-active-item'"
     mustache :photographers
   end
-
-
-  # get '/nolayout' do
-  #   content_type 'text/plain'
-  #   mustache :nolayout, :layout => false
-  # end
 end

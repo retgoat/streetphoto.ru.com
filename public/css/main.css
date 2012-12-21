@@ -132,26 +132,25 @@ header{
 }
 
 #header-content h2{
-  font-family: 'Lobster' cursive;
-  font-size: 34px;
-  letter-spacing: 2px;
+  color: #222222;
   display: inline-block;
-  color: #222;
-  text-shadow: 0px 2px 3px #555;
+  font-family: 'Lobster',cursive;
+  font-size: 34px;
+  left: 130px;
+  letter-spacing: 2px;
   position: relative;
-  left: 208px;
+  text-shadow: 0 2px 3px #555555;
   top: -15px;
 }
 
 #header-content h2:before{
   content: "inspired by the streets";
   font-size: 48px;
-  position: absolute;
-  left: -117px;
-  text-shadow: none;
+  left: -140px;
   opacity: 0.25;
-  top: -18px;
+  position: absolute;
   text-shadow: 0 -1px 0 black;
+  top: -18px;
 }
 
 #main-menu{

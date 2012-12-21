@@ -2,12 +2,11 @@ class App
   module Views
     class Layout < Mustache
       def title 
-        @title || "qa"
+        @title
       end
-
-      # def menu_active
-      # 	@main_active = "menu-item-active"
-      # end
+      def active_link
+      	@active_link = "menu-item-active"
+      end
     end
   end
 end
