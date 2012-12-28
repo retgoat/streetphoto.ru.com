@@ -17,23 +17,21 @@ class App < Sinatra::Base
   set :public, './public'
 
   get '/' do
-    @title = "Modern Street Photo in Russia"
-    # @title = t.title
     mustache :index
   end
 
   get '/about' do
-    @title = "About the Event | Modern Street Photo in Russia"
     mustache :about
 
   end
 
   get '/photographers' do
-    @title = "Photographers at the Event | Modern Street Photo in Russia"
     mustache :photographers
   end
 
   before do
+    session[:locale] = ENV['APP_LANG']
+    @t = t
     @path_info = request.path_info
   end
 end

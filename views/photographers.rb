@@ -1,8 +1,8 @@
 class App
   module Views
     class Photographers < Layout
-       def title 
-        @title
+      def thomas
+      	# @thomass == @t.bio.inspect
       end
     end
   end
