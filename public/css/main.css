@@ -129,6 +129,7 @@ header{
   float: left;
   display: inline-block;
   text-shadow: 0px 2px 2px #5B5B5B;
+  margin-left: auto;
 }
 
 #header-content h2{
@@ -136,11 +137,17 @@ header{
   display: inline-block;
   font-family: 'Lobster',cursive;
   font-size: 34px;
-  left: 130px;
+  /*left: 130px;*/
   letter-spacing: 2px;
   position: relative;
   text-shadow: 0 2px 3px #555555;
   top: -15px;
+  float: right;
+}
+
+#header-content h2:after{
+ content: " ";
+ clear: both;
 }
 
 #header-content h2:before{
@@ -155,28 +162,26 @@ header{
 
 #main-menu{
   margin-top: 36px;
-  /*padding-left: 30px;
-  position: relative;
-  left: 100px;*/
-  text-align: right;
+  float: right;
 }
 
 .menu-item{
-  color: #DEDFE2;
+color: #DEDFE2;
   text-decoration: none;
-  margin: 0 0px;
+  margin: 4px 4px;
   font-size: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
   text-shadow: 0px 1px 0px #000;
   -moz-text-shadow: 0px 1px 0px #000;
   -webkit-text-shadow: 0px 1px 0px #000;
+}
 
+.menu-item:hover{
+  border-bottom: dashed 1px;
 }
 
 .menu-item-active{
   background: url('../img/active-bar.png') center 3px no-repeat;
-  padding-bottom: 7px;
+  padding: 0 4px 4px;
   border: none;
   color: #661919;
   text-shadow: 0px 1px 0px #fff;
@@ -184,13 +189,7 @@ header{
   -webkit-text-shadow: 0px 1px 0px #fff;
 }
 
-.menu-item:hover{
-  border-bottom: dashed 1px;
-}
-
 .menu-item-active:hover{
-  /*background: url('../img/active-bar.png') center 4px no-repeat;
-  padding-bottom: 7px;*/
   border: none;
 }
 

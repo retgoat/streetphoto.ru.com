@@ -4,8 +4,12 @@ class App
       def title 
         @title
       end
-      def active_link
-      	@active_link = "menu-item-active"
+      
+      def menu
+        { :home_active => @path_info == "/", 
+          :about_active => @path_info == "/about",
+          :photographers_active => @path_info == "/photographers"
+        }
       end
     end
   end
