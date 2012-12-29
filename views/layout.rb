@@ -18,8 +18,16 @@ class App
         @t.msg.description
       end
 
-      def menu_links
-        @t.menu_links
+      def home
+        @t.links.home
+      end
+
+      def event
+        @t.links.event
+      end
+
+      def photographers
+        @t.links.photographers
       end
 
       def menu
