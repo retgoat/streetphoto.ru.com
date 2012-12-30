@@ -129,7 +129,25 @@ header{
   float: left;
   display: inline-block;
   text-shadow: 0px 2px 2px #5B5B5B;
-  margin-left: auto;
+ margin: 45px 0 0 -60px;
+}
+
+.lang{
+  float: left;
+  padding-right: 10px;
+  /*background: gray;
+  margin: 0 5px;
+  */color: #fff;
+  /*border-radius: 20px;*/
+}
+
+.lang a{
+  color:  #fff;
+  text-decoration: none;
+}
+
+.lang a:hover{
+  border-bottom: dashed 1px;
 }
 
 #header-content h2{
@@ -161,7 +179,7 @@ header{
 }
 
 #main-menu{
-  margin-top: 36px;
+  margin-top: 20px;
   float: right;
 }
 
