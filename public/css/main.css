@@ -180,8 +180,8 @@ color: #DEDFE2;
 }
 
 .menu-item-active{
-  background: url('../img/active-bar.png') center 3px no-repeat;
-  padding: 0 4px 4px;
+  background: url('../img/active-bar.png') center 2px no-repeat;
+  padding: 0 4px 5px;
   border: none;
   color: #661919;
   text-shadow: 0px 1px 0px #fff;
