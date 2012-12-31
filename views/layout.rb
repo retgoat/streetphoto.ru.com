@@ -30,6 +30,18 @@ class App
         @t.links.photographers
       end
 
+      def form_header
+        @t.form.header
+      end
+
+      def form_placeholder
+        @t.form.placeholder
+      end
+
+      def form_submit
+        @t.form.submit
+      end
+
       def menu
         { :home_active => @path_info == "/", 
           :about_active => @path_info == "/about",
