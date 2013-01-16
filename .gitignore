@@ -1,3 +1,7 @@
 *.sublime-*
 log/*
 pids/*
+unicorn.conf.rb
+tmp/*
+pids/*
+log/*
