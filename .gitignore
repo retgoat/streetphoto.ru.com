@@ -2,6 +2,7 @@
 log/*
 pids/*
 unicorn.conf.rb
+run.sh
 tmp/*
 pids/*
 log/*
