@@ -4,7 +4,6 @@ class App
     	def main
     		@t.main
     	end
-      
     end
   end
 end

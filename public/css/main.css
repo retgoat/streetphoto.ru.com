@@ -293,10 +293,9 @@ div.bullets ul, li{
 }
 
 .one-third{
-  width: 33%;
-  height: 400px;
+  width: 25%;
+  height: 700px;
   float: left;
-  /*border: solid red 1px;*/
   padding: 10px;
 }
 
@@ -377,13 +376,13 @@ div.photographer ul{
   position: relative;
 }
 
-.bio a{
+.bio a, .main-page a{
   color: inherit;
   text-decoration: none;
   border-bottom: dashed 1px;
 }
 
-.bio a:hover{
+.bio a:hover, , .main-page a:hover{
   border: none;
 }
 
@@ -397,6 +396,15 @@ hr.photo-divider {
 
 
 /* About */
+/*#map{
+  width: 640px;
+  margin: 30px 30px 0 0;
+  border: solid 8px #fff;
+}*/
+.about-place{
+  display: table-cell;
+  margin-top: 30px;
+}
 
 .height-fix{
   height: 600px;

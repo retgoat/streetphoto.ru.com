@@ -1,20 +1,27 @@
 title:
- home: "Modern street photography in Russia"
- about: "About the event"
- photographers: "Photographers at the event"
+ home: "Modern street photography in Russia | Modern street photo"
+ about: "About the event | Modern street photo"
+ photographers: "Photographers at the event | Modern street photo"
 msg:
  keywords: "KEYWORDS"
  description: "DESCRIPTION"
+#main menu
 links:
  home: "Main"
  event: "About"
  photographers: "Photographers"
+#mailchimp form
 form:
  header: "Subscribe to get last news about the Event"
  placeholder: "email address"
  submit: "Subscribe"
 main: "<h3>Event</h3><p class='main-page'>Vivamus et enim risus. Donec accumsan dui eu dolor tempus consectetur. Sed suscipit consequat eros, eu condimentum ligula porta vitae. Nam quis ante elit. Aliquam ut tristique nulla. Suspendisse potenti. Nam gravida dictum nulla sit amet aliquam. Nulla vel diam nec magna facilisis luctus. Pellentesque velit mi, vestibulum eu scelerisque quis, adipiscing vestibulum massa. Curabitur tristique auctor arcu, et congue mi tincidunt at. Nulla quis aliquam arcu. Donec convallis cursus dolor a iaculis. Cras sollicitudin eleifend ipsum, iaculis varius mi accumsan non. Aenean eu lacus ac diam placerat placerat. Aliquam erat volutpat. Praesent ut dolor vel sapien tristique rhoncus non eget est. </p><p class='main-page'>Aliquam egestas tellus sed libero tempor congue. Nullam in ante eget augue pellentesque iaculis. Sed faucibus dolor iaculis augue porttitor eu convallis massa iaculis. Donec venenatis pretium libero nec rhoncus. Pellentesque id nunc nunc. Cras adipiscing diam vitae augue egestas dapibus. Curabitur hendrerit eros in metus congue suscipit.s</p>"
-about: "<h3>Where and when?</h3><p>Vivamus et enim risus. Donec accumsan dui eu dolor tempus consectetur. Sed suscipit consequat eros, eu condimentum ligula porta vitae. Nam quis ante elit. Aliquam ut tristique nulla. Suspendisse potenti. Nam gravida dictum nulla sit amet aliquam. Nulla vel diam nec magna facilisis luctus. Pellentesque velit mi, vestibulum eu scelerisque quis, adipiscing vestibulum massa. Curabitur tristique auctor arcu, et congue mi tincidunt at. Nulla quis aliquam arcu. Donec convallis cursus dolor a iaculis. Cras sollicitudin eleifend ipsum, iaculis varius mi accumsan non. Aenean eu lacus ac diam placerat placerat. Aliquam erat volutpat. Praesent ut dolor vel sapien tristique rhoncus non eget est. </p><p>Aliquam egestas tellus sed libero tempor congue. Nullam in ante eget augue pellentesque iaculis. Sed faucibus dolor iaculis augue porttitor eu convallis massa iaculis. Donec venenatis pretium libero nec rhoncus. Pellentesque id nunc nunc. Cras adipiscing diam vitae augue egestas dapibus. Curabitur hendrerit eros in metus congue suscipit.s</p>"
+#Event
+eventinfo:
+ eventheader: "Where and when?"
+ eventplace: "«Kinocity» gallery at trade center «Siberian Mall», 235, Frunze, Novosibirsk, Russia"
+ eventdate: "April 2013"
+#Photographers
 bio:
  thomas: "<p>Thomas Leuthard is a Swiss based street content-element who travels around the World to witness and document life on the streets.</p><p>For him the best places to shoot street is the railway station of a big city.</p><p>The reason for this might by his childhood where he was ground up at a small railway station in the center of Switzerland. It's not the trains or the technology which fascinates him, it's the daily life and the variety of people passing such a place.</p>"
  bjorn: "<p>Björn Bechstein is a content-element currently living in Frankfurt/Germany. His passion is travelling the world, which made him strive to capture the diversity and natural beauty of people. As aestethics and composition play a big role for him, he takes his time for his photographs and increasingly uses analogue technology.</p>"
