@@ -42,6 +42,22 @@ class App
         @t.form.submit
       end
 
+      def feedback
+        @t.feedback
+      end
+
+      def vk_message
+        @t.vk_message
+      end
+
+      def fb_message
+        @t.fb_message
+      end
+
+      def px_message
+        @t.px_message
+      end
+
       def menu
         { :home_active => @path_info == "/", 
           :about_active => @path_info == "/about",

@@ -1,6 +1,6 @@
 worker_processes 4
 
-app_path = "/home/retgoat/workspace/git/streetphoto.ru.com"
+app_path = "/home/drove/workspace/git/streetphoto.ru.com"
 working_directory app_path # available in 0.94.0+
 
 # listen on both a Unix domain socket and a TCP port,
