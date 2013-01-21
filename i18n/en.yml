@@ -17,8 +17,7 @@ form:
  submit: "Subscribe"
 main: "<h3>Event</h3><p class='main-page'>Vivamus et enim risus. Donec accumsan dui eu dolor tempus consectetur. Sed suscipit consequat eros, eu condimentum ligula porta vitae. Nam quis ante elit. Aliquam ut tristique nulla. Suspendisse potenti. Nam gravida dictum nulla sit amet aliquam. Nulla vel diam nec magna facilisis luctus. Pellentesque velit mi, vestibulum eu scelerisque quis, adipiscing vestibulum massa. Curabitur tristique auctor arcu, et congue mi tincidunt at. Nulla quis aliquam arcu. Donec convallis cursus dolor a iaculis. Cras sollicitudin eleifend ipsum, iaculis varius mi accumsan non. Aenean eu lacus ac diam placerat placerat. Aliquam erat volutpat. Praesent ut dolor vel sapien tristique rhoncus non eget est. </p><p class='main-page'>Aliquam egestas tellus sed libero tempor congue. Nullam in ante eget augue pellentesque iaculis. Sed faucibus dolor iaculis augue porttitor eu convallis massa iaculis. Donec venenatis pretium libero nec rhoncus. Pellentesque id nunc nunc. Cras adipiscing diam vitae augue egestas dapibus. Curabitur hendrerit eros in metus congue suscipit.s</p>"
 #News
-news:
- newsblock_header: "Latest news"
+newsblock_header: "Latest news"
 #Event
 eventinfo:
  eventheader: "Where and when?"
