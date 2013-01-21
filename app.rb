@@ -1,6 +1,7 @@
 require 'sinatra/base'
 require 'sinatra/r18n'
 require 'mustache/sinatra'
+require 'yaml'
 
 class App < Sinatra::Base
   register Mustache::Sinatra
@@ -10,7 +11,7 @@ class App < Sinatra::Base
 
   set :mustache, {
     :views     => './views/',
-    :templates => './templates/'
+    :templates => './templates/',
   }
   
   set :static, true
@@ -28,6 +29,7 @@ class App < Sinatra::Base
   get '/photographers' do
     mustache :photographers
   end
+
 
   before do
     session[:locale] = ENV['APP_LANG']
