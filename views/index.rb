@@ -8,9 +8,10 @@ class App
     	def newsblock_header
     		@t.newsblock_header
     	end
-        def news_out
-		    news_file = YAML::load_file('./news/news.yaml')
-  		end
+      def news_out
+        
+        
+      end
     end
   end
 end
