@@ -30,7 +30,7 @@ main: "<h1 class='main-title'>Event</h1><p class='main-page'>Vivamus et enim ris
 #Event
 eventinfo:
  eventheader: "Where and when?"
- eventplace: "«Kinocity» gallery at trade center «Siberian Mall», 235, Frunze, Novosibirsk, Russia"
+ eventplace: "«Kinocity» gallery at trade center «Siberian Mall», 238, Frunze street, Novosibirsk, Russia"
  eventdate: "April 2013"
 #Photographers
 artists_title: "Photographers"
