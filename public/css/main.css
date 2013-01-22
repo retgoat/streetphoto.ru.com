@@ -122,7 +122,7 @@ header{
   padding: 10px;
 }
 
-#header-content h1{
+#logo{
   font-size: 70px;
   line-height: 50px;
   color: #DEDFE2;
@@ -150,7 +150,7 @@ header{
   border-bottom: dashed 1px;
 }
 
-#header-content h2{
+#slogan{
   color: #222222;
   display: inline-block;
   font-family: 'Lobster',cursive;
@@ -163,12 +163,12 @@ header{
   float: right;
 }
 
-#header-content h2:after{
+#slogan:after{
  content: " ";
  clear: both;
 }
 
-#header-content h2:before{
+#slogan:before{
   content: "inspired by the streets";
   font-size: 48px;
   left: -140px;
@@ -179,7 +179,7 @@ header{
 }
 
 #main-menu{
-  margin-top: 20px;
+  margin-top: 80px;
   float: right;
 }
 
@@ -283,6 +283,10 @@ div.bullets ul, li{
   border-radius: 10px;
   box-shadow: 0px 1px 0px #fff;
   background: #383838;
+}
+
+.main-title{
+  margin: 50px 0 30px;
 }
 
 

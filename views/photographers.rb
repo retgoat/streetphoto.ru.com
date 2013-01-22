@@ -1,6 +1,9 @@
 class App
   module Views
     class Photographers < Layout
+      def p_header
+        @t.artists_title
+      end
       #Thomas
       def thomas_name
         @t.bio.thomas_name
