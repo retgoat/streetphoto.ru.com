@@ -262,6 +262,7 @@ h2{
   display: block;
   margin: 0 auto;
   border: solid #fff 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
 }
 
 #slider h2{
