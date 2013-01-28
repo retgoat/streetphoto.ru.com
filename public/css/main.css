@@ -129,7 +129,8 @@ header{
   float: left;
   display: inline-block;
   text-shadow: 0px 2px 2px #5B5B5B;
- margin: 45px 0 0 -60px;
+  margin: 45px 0 0 -60px;
+  font-weight: bold;
 }
 
 .lang{
