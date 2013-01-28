@@ -23,14 +23,15 @@ class App < Sinatra::Base
 
   get '/about' do
     mustache :about
-
   end
 
   get '/photographers' do
     mustache :photographers
   end
 
-
+  not_found do
+    redirect '/404.html'
+  end
   before do
     session[:locale] = ENV['APP_LANG']
     @t = t
