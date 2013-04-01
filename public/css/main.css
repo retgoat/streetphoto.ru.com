@@ -417,6 +417,11 @@ hr.photo-divider {
   height: 600px;
 }
 
+.soon{
+  text-align: center;
+  font-size: 2em;
+}
+
 #mailchimp{
   /*width: 400px;*/
   background: #fff;

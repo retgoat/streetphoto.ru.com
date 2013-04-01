@@ -14,6 +14,10 @@ class App
         @t.eventinfo.eventdate
       end
 
+      def e_soon
+        @t.eventinfo.soon
+      end
+
     end
   end
 end
