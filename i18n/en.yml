@@ -30,8 +30,8 @@ main: "<h1 class='main-title'>Exhibition «Modern Street Photo» in Novosibirsk,
 #Event
 eventinfo:
  eventheader: "Where and when?"
- eventplace: "«Kinocity» gallery at trade center «Siberian Mall», 238, Frunze street, Novosibirsk, Russia"
- eventdate: "April 2013"
+ eventplace: "<strong>«State Center of Fine Arts»</strong><br/> 13, Sverdlova street, Novosibirsk, Russia"
+ eventdate: "July,25 2013"
  soon: "We'll know soon<br/>Stay in touch!"
 #Photographers
 artists_title: "Photographers"
