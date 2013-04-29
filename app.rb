@@ -15,7 +15,7 @@ class App < Sinatra::Base
   }
   
   set :static, true
-  set :public, './public'
+  set :public_dir, './public'
 
   get '/' do
     mustache :index

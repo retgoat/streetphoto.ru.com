@@ -40,6 +40,14 @@ class App
       def martin
         @t.bio.martin
       end
+      #Jason
+      def jason_name
+        @t.bio.jason_name
+      end
+      def jason
+        @t.bio.jason
+      end
+
 
     end
   end
